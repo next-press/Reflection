@@ -13,11 +13,17 @@
         "php": ">=5.3.3",
         "psr/log": "~1.0",
         "nikic/php-parser": "^1.0",
-        "phpdocumentor/reflection-docblock": "~4.0"
+        "next-press/reflection-docblock": "~3.0"
     },
     "suggests": {
         "symfony/event-dispatcher": "~2.1"
     },
+    "repositories": [
+		{
+		    "type": "vcs",
+		    "url": "git@github.com:next-press/reflectiondocblock.git"
+		}
+	],
     "require-dev": {
         "behat/behat": "~2.4",
         "phpunit/phpunit": "~4.0",
